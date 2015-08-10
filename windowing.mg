@@ -27,3 +27,5 @@ Johnson      40000    Marketing     1
 Here, we have defined a "relative rank" by department salary. This is 
 useful in, e.g., feature engineering.
 
+For example, we could find the top paid employee by department
+by wrapping the above in a subquery and restricting to rows where `rank = 1`.
